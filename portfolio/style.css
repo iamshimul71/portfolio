@@ -1,0 +1,216 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*######## Basic setup ##########*/
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
+section {
+    height: 600px;
+    padding-bottom: 10px;
+
+
+}
+
+.all-button {
+    text-decoration: none;
+    background-color: #ef6f94;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.overflow {
+    display: block;
+    overflow: hidden;
+}
+
+/*######## End Basic setup ##########*/
+
+/*######## Start top-banner ##########*/
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+
+.name-highlight {
+    color: #EC4C7A;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*######## End top-banner ##########*/
+
+
+/* ###### start Biography sec #####*/
+.biography-sec {
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.biography-sec img {
+    position: relative;
+    bottom: 66px;
+    left: 20;
+    left: 9px;
+}
+
+/*##### End Biography sec #####*/
+
+
+/*#### start latest work######*/
+.latest-work {
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+.latest-work h2 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.work-width {
+    width: 22%;
+    float: left;
+    margin-left: 105px;
+
+}
+
+.work-width img {
+    width: 100%;
+}
+
+/*#### End latest work######*/
+
+
+/*#### Start clint sec ######*/
+.clint-sec {
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.clint-sec h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.clint-qt {
+
+    text-align: center;
+}
+
+.clint-qt p {
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+}
+
+.email {
+    text-align: center;
+}
+
+.email p {
+    background: #EC4C7A;
+    width: 400px;
+    color: #fff;
+    margin-left: 454px;
+    padding: 40px 27px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email-mg {
+    font-size: 13px;
+    position: relative;
+    bottom: 27px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*#### End clint sec ######*/
+
+/*#### start Blog section #####*/
+.blog-sec {}
+
+.blog-sec h2 {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.blog-sec p {
+    text-align: justify;
+
+}
+
+.blog-sec h3 {
+    color: #EC4C7A;
+}
+
+.blog-content {
+    width: 22%;
+    height: 350px;
+    float: left;
+    margin-left: 68px;
+    border: 1px solid #69696933;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 6px 20px dimgrey;
+    border-radius: 5px;
+}
+
+
+
+.blog-content img {
+    width: 70%;
+}
+
+
+/*#### End BLOG section #####*/
+
+/*#### Start Footer section #####*/
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*#### End footer section #####*/
